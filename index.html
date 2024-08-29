@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html data-theme="light">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,10 +35,84 @@
         .font-manrope{
             font-family: "Manrope", system-ui;
         }
+
+        .banner{
+          background: url(./Images/1.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        }
      </style>
 
 </head>
-<body>
+<body class="font-manrope">
+
+    <header class="w-11/12 mx-auto">
+        <!-- Navbar Styles -->
+         <nav class="bg-blue-400 w-11/12 mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  
+                  <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</a>
+                  
+                </div>
+                <div class="navbar-center hidden lg:flex ">
+                  <ul class="menu menu-horizontal px-1 text-base font-semibold text-[#424247] ">
+                    <li><a class="text-[#FF4240]">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <i class="fa-solid fa-magnifying-glass mr-4 text-[#424247] hidden lg:flex"></i>
+                  <a class="btn bg-[#FF4240] text-white text-lg lg:text-xl font-bold  w-32 lg:w-36 hidden lg:flex">Get Ticket</a>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden mr-0">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+         </nav>
+
+         <!-- Banner Section -->
+          <section>
+           <!-- Image div -->
+            <div class="w-11/12 mx-auto mt-6 rounded-2xl">
+              <img class="w-full rounded-2xl" src="./Images/1.png" alt="">
+            </div>
+            <!-- Box-2 parent -->
+             <div class="flex justify-end w-11/12 mx-auto mt-6">
+              <div class="lg:w-5/12 bg-[#131318] px-6 py-6 rounded-2xl lg:-mt-40 lg:-ml-40 ">
+                <h5 class="text-2xl font-extrabold text-white mb-4">Meet all the heroes from the field</h5>
+                <p class="text-base font-medium text-[#FFFFFF99]">Unleashing the power of ice, we skate with passion and precision. Join the thrill</p>
+              </div>
+
+             </div>
+            
+
+          </section>
+    </header>
+    <main></main>
+    <footer></footer>
     
 </body>
 </html>
